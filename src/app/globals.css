@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color:lightgrey;
+}
+.about-box {
+    background-color: #991B1B;
+}
+.space-about {
+    margin-left: 12px;
+    padding: 1px 5px;
+    transition: all 0.3s ease-in-out;
+    color: whitesmoke
+}
+.space-about:hover {
+    text-decoration: underline;
+}
+.ul-users {
+    list-style-type:disc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.under-line {
+    text-decoration: underline;
+}
+.resize {
+    width: 30%;
+    padding: 10px;
+    align-items: center;
+    
+}
