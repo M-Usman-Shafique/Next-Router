@@ -2,7 +2,7 @@ import React from 'react'
 
 function Right() {
   return (
-    <div>Right</div>
+    <div>RIGHT</div>
   )
 }
 
